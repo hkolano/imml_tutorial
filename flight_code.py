@@ -2,6 +2,7 @@
 An example code framework. 
 '''
 # Import libraries
+import random
 
 # Define constants
 
@@ -16,7 +17,8 @@ def read_sensor():
     Outputs:
     Sensor reading in volts
     '''
-    return None
+    sensor_val = random.random()
+    return sensor_val
 
 def convert_sens_to_dist(reading):
     '''
