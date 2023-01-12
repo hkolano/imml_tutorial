@@ -17,8 +17,7 @@ def read_sensor():
     Outputs:
     Sensor reading in volts
     '''
-    sensor_val = random.random()
-    return sensor_val
+    return None
 
 def convert_sens_to_dist(reading):
     '''
@@ -30,7 +29,6 @@ def convert_sens_to_dist(reading):
     Outputs:
     dist: the corresponding distance, in cm
     '''
-    print(reading)
     return None
 
 # Flight code
