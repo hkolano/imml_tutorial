@@ -29,6 +29,7 @@ def convert_sens_to_dist(reading):
     Outputs:
     dist: the corresponding distance, in cm
     '''
+    print("hi!")
     return None
 
 # Flight code
